@@ -1,0 +1,134 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 336px;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    color: black;
+
+}
+#yellow{
+    position: static;
+    width: 336px;
+    height: 28px;
+    background: #FFDC40;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#myDIV{
+    min-height: 236px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.nyan{
+    
+    font-size: 26px;
+    text-align: center;
+    left: 72px;
+}
+
+#sor{
+    margin-left: 283px;
+    margin-right: 10px;
+    appearance: none;
+}
+.lineDown{
+    content: url('graydown.svg');
+    appearance: none;
+    display: block;
+    width: 25px;
+    height: 15px;
+}
+.iAmDown{
+    appearance: none;
+    border: 0ch;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+}
+.lineUp{
+    content: url('grayup.svg');
+    appearance: none;
+    display: block;
+    width: 25px;
+    height: 15px;
+}
+
+.lineDown:hover{
+    content: url('blackdown.svg');
+}
+.lineUp:hover{
+    content: url('blackup.svg');
+}
+input{
+    font-family: 'Roboto';
+    color: black;
+    appearance: none;
+    border: 0ch;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+}
+#myUL{
+    width: 286px;
+    margin-top: 10px;
+    margin-left: 28px ;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.close{
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    color: #C4C4C4 ;
+    background-color: white;
+}
+
+.close:hover{
+    background-color: #833AE0;
+}
+.addBtn{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: #9953F1;  
+    width: 180px;
+    height: 42px;
+    border: none;
+    border-radius: 43px;
+    margin-left: 84px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#dobPurp{
+    padding-left: 2px;
+    padding-top: 11px;
+}
+#plus{
+    height: 42px;
+    width: 42px;
+   position: relative;
+   top: -1px;
+    left: -5px;
+    border: none;
+    border-radius: 43px;
+    background-color: #AA68FE;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
